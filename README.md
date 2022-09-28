@@ -15,7 +15,7 @@
 
 
 ## ✅ commit 규칙
-- commit 메세지: [문제 출처(플랫폼)] 문제이름 / 난이도
+- commit 메세지: [문제 출처(플랫폼)] 문제이름
 - description: 문제 주소 (option)
 - 플랫폼 작성법 :
   - [BOJ] - 백준
