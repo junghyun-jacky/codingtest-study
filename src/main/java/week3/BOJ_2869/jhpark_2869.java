@@ -15,8 +15,7 @@ public class jhpark_2869 {
         int A = Integer.parseInt(st.nextToken());
         int B = Integer.parseInt(st.nextToken());
         int V = Integer.parseInt(st.nextToken());
-        int days = 0;
-
+        
         int day = (V - B) / (A - B);
 
         // 나머지가 있을 경우 (잔여 길이가 있을 경우)
