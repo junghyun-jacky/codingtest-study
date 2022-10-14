@@ -18,7 +18,7 @@ public class jhpark_1978 {
 
         while(st.hasMoreTokens()) {
 
-            // 소수일 때 true, 아닐 때 dlase
+            // 소수일 때 true, 아닐 때 false
             boolean isPrime = true;
 
             // 입력받은 수를 하나하나 num에 대입
