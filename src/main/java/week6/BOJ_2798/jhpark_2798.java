@@ -29,10 +29,8 @@ public class jhpark_2798 {
 
                     tmp = cards[i] + cards[j] + cards[k];
 
-                    if(tmp <= M) {
-                        if(tmp > result) {
+                    if(tmp > result && tmp <= M) {
                             result = tmp;
-                        }
                     }
 
                 }
