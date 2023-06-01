@@ -16,8 +16,11 @@
 `week8`: 자료구조1   
 `week9`: 자료구조1 - 연습/심화   
 `week10`: 수학1   
-`week11`:   
-
+`week11`: 구현   
+`week12`: DFS   
+`week13`: DFS - 2   
+`week14`: BFS  
+`week15`: BFS - 2   
 
 ## ✅ 참여 방법
 1. 이 저장소를 `fork` 한다.
