@@ -2,7 +2,7 @@
 
 |박정현|이가은|
 |------|---|
-|https://github.com/junghyun-jacky|https://github.com/chashudong|
+|https://github.com/junghyun-jacky|https://github.com/gaeun0506|
 
 
 ## 📌 주차별 학습
