@@ -38,7 +38,7 @@ public class Main {
         for (int x = 0; x < N; x++) {
             for (int y = 0; y < N; y++) {
                 if(!visited[x][y]) {
-                    dfsRGB(x, y);
+                    dfs(x, y);
                     count++;
                 }
             }
@@ -46,7 +46,6 @@ public class Main {
         StringBuilder sb = new StringBuilder();
         sb.append(count).append(" ");
 
-        
         // 적록색약일 때
         visited = new boolean[N][N];
         count = 0;
@@ -63,7 +62,7 @@ public class Main {
         for (int x = 0; x < N; x++) {
             for (int y = 0; y < N; y++) {
                 if(!visited[x][y]) {
-                    dfsRB(x, y);
+                    dfs(x, y);
                     count++;
                 }
             }
@@ -74,7 +73,7 @@ public class Main {
 
     }
 
-    private static void dfsRGB(int x, int y) {
+    private static void dfs(int x, int y) {
         visited[x][y] = true;
         String tmpString = Map[x][y];
 
@@ -86,27 +85,10 @@ public class Main {
             if(nx >= 0 && ny >= 0 && nx < N && ny < N) {
                 // 변경된 x, y 가 0이면 X, 방문한 배열이면 안됨
                 if (Map[nx][ny].equals(tmpString) && !visited[nx][ny]) {
-                    dfsRGB(nx, ny);
+                    dfs(nx, ny);
                 }
             }
         }
     }
 
-    private static void dfsRB(int x, int y) {
-        visited[x][y] = true;
-        String tmpString = Map[x][y];
-
-        for (int i = 0; i < 4; i++) {
-            int nx = x + dx[i];
-            int ny = y + dy[i];
-
-            // 배열을 넘어가면 X
-            if(nx >= 0 && ny >= 0 && nx < N && ny < N) {
-                // 변경된 x, y 가 0이면 X, 방문한 배열이면 안됨
-                if (Map[nx][ny].equals(tmpString) && !visited[nx][ny]) {
-                    dfsRB(nx, ny);
-                }
-            }
-        }
-    }
 }
