@@ -21,6 +21,7 @@
 `week13`: DFS - 2   
 `week14`: BFS  
 `week15`: BFS - 2   
+`week16`: 정렬 (DFS/BFS)   
 
 ## ✅ 참여 방법
 1. 이 저장소를 `fork` 한다.
