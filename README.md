@@ -26,7 +26,7 @@
 `week18`: 이분탐색, DP   
 `week19`: DP   
 `week20`: DP   
-`week21`: Dijkstra, DP
+`week21`: Dijkstra, DP   
 `week22`: BFS/DFS, 구현   
 
 ## ✅ 참여 방법
