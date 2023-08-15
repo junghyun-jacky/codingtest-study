@@ -26,7 +26,8 @@
 `week18`: 이분탐색, DP   
 `week19`: DP   
 `week20`: DP   
-`week21`: Dijkstra, DP, BFS/DFS, 구현
+`week21`: Dijkstra, DP
+`week22`: BFS/DFS, 구현   
 
 ## ✅ 참여 방법
 1. 이 저장소를 `fork` 한다.
