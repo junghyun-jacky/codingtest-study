@@ -28,6 +28,8 @@
 `week20`: DP   
 `week21`: Dijkstra, DP   
 `week22`: BFS/DFS, 구현   
+`week23`: 그리디, 구현   
+
 
 ## ✅ 참여 방법
 1. 이 저장소를 `fork` 한다.
