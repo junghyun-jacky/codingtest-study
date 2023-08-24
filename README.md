@@ -29,6 +29,7 @@
 `week21`: Dijkstra, DP   
 `week22`: BFS/DFS, 구현   
 `week23`: 그리디, 구현   
+`week24`: 그리디, 구현, DP, 브루트포스   
 
 
 ## ✅ 참여 방법
