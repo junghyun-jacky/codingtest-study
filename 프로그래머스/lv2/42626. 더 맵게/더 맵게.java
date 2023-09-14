@@ -11,10 +11,6 @@ class Solution {
         
         int count = 0;
         while(heap.size() > 1 && heap.peek() < K) {
-            if(heap.size() < 1 && heap.peek() < K) {
-                count = -1;
-                break;
-            }
             int minScoville = heap.poll() + (heap.poll() * 2);
             heap.add(minScoville);
             count++;
